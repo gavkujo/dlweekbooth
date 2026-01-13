@@ -4,7 +4,7 @@ A small application with React frontend + Node/Express backend + Python pose ser
 
 ## Architecture
 Below is the high-level deployment flow:  
-![Architecture diagram](./docs/architecture.png)
+![Architecture diagram](./diagram.png)
 
 ## Live endpoints
 - API (App Runner): `https://wsi2xgmpev.us-east-1.awsapprunner.com`
