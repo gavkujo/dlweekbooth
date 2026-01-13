@@ -1,0 +1,131 @@
+.leaderboard-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #f8fafc;
+  padding: 40px 40px 80px;
+}
+
+.leaderboard-header {
+  margin-bottom: 30px;
+}
+
+.leaderboard-header h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.leaderboard-header p {
+  opacity: 0.8;
+  max-width: 600px;
+}
+
+.leaderboard-nav {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.leaderboard-nav button {
+  padding: 12px 24px;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  background: rgba(15, 23, 42, 0.6);
+  color: #e2e8f0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.leaderboard-nav button:hover {
+  transform: translateY(-2px);
+  border-color: rgba(148, 163, 184, 0.8);
+}
+
+.leaderboard-nav button.active {
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  border-color: transparent;
+  color: #0f172a;
+}
+
+.leaderboard-content {
+  background: rgba(15, 23, 42, 0.65);
+  border-radius: 20px;
+  padding: 30px;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  backdrop-filter: blur(12px);
+  min-height: 300px;
+}
+
+.leaderboard-status {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+  font-size: 18px;
+  opacity: 0.85;
+}
+
+.leaderboard-status button {
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: none;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: #0f172a;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.leaderboard-status.error {
+  color: #fca5a5;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 14px 16px;
+  text-align: left;
+}
+
+.leaderboard-table thead {
+  background: rgba(148, 163, 184, 0.1);
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.leaderboard-table tbody tr:nth-child(odd) {
+  background: rgba(148, 163, 184, 0.06);
+}
+
+.leaderboard-table tbody tr:hover {
+  background: rgba(148, 163, 184, 0.12);
+}
+
+.leaderboard-table td:first-child {
+  width: 60px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .leaderboard-page {
+    padding: 30px 20px 60px;
+  }
+
+  .leaderboard-content {
+    padding: 20px;
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 10px 12px;
+  }
+}

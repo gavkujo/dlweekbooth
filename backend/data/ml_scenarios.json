@@ -1,0 +1,175 @@
+[
+  {
+    "id": "logistic_easy_1",
+    "model": "Logistic Regression",
+    "difficulty": "Easy",
+    "question": "Which model would create this linear decision boundary?",
+    "explanation": "Logistic regression creates linear decision boundaries by fitting a sigmoid function to the data. It's commonly used for binary classification problems like spam detection.",
+    "useCase": "Email spam detection, credit risk assessment, medical diagnosis",
+    "visualType": "chart",
+    "hint": "Think about linear decision boundaries for two blobs of points.",
+    "dataParams": {
+      "type": "gaussian_blobs",
+      "n": 100,
+      "means": [[-2, 0], [2, 0]],
+      "std": 1.0,
+      "centers": 2
+    },
+    "options": [
+      "Decision Tree",
+      "k-Nearest Neighbors",
+      "Logistic Regression",
+      "k-Means Clustering"
+    ]
+  },
+  {
+    "id": "decisiontree_medium_1",
+    "model": "Decision Tree",
+    "difficulty": "Medium",
+    "question": "Which model creates these axis-aligned splits?",
+    "explanation": "Decision trees split data using axis-aligned boundaries, creating rectangular regions. They're easy to interpret but can overfit.",
+    "useCase": "Customer segmentation, loan approval, medical decision support",
+    "visualType": "chart",
+    "hint": "Look for vertical and horizontal decision boundaries.",
+    "dataParams": {
+      "type": "rectangle_regions",
+      "n": 20,
+      "thresholds": [0.1, -0.15]
+    },
+    "options": [
+      "Logistic Regression",
+      "Neural Network",
+      "Decision Tree",
+      "Support Vector Machine"
+    ]
+  },
+  {
+    "id": "svm_margin_medium_1",
+    "model": "Support Vector Machine",
+    "difficulty": "Medium",
+    "question": "Which model produces a maximum-margin separator like this?",
+    "explanation": "Support Vector Machines maximize the margin between classes and rely on support vectors close to the decision boundary.",
+    "useCase": "Image classification, text classification, bioinformatics",
+    "visualType": "chart",
+    "hint": "Notice the parallel margin lines hugging the boundary.",
+    "dataParams": {
+      "type": "svm_margin",
+      "n": 10,
+      "margin": 0.25,
+      "slope": 0.7
+    },
+    "options": [
+      "Support Vector Machine",
+      "Naive Bayes",
+      "Decision Tree",
+      "Neural Network"
+    ]
+  },
+  {
+    "id": "kmeans_easy_1",
+    "model": "k-Means Clustering",
+    "difficulty": "Easy",
+    "question": "Which unsupervised algorithm groups data like this?",
+    "explanation": "k-Means finds clusters by minimizing distances between points and cluster centers. It's an unsupervised learning algorithm.",
+    "useCase": "Market segmentation, image compression, document clustering",
+    "visualType": "chart",
+    "hint": "Groups are tight spheres around centroids.",
+    "dataParams": {
+      "type": "clusters",
+      "n": 150,
+      "centers": 7,
+      "std": 0.45
+    },
+    "options": [
+      "k-Means Clustering",
+      "Linear Regression",
+      "Random Forest",
+      "Logistic Regression"
+    ]
+  },
+  {
+    "id": "randomforest_visual_1",
+    "model": "Random Forest",
+    "difficulty": "Medium",
+    "question": "Which model uses an ensemble of trees like this canopy?",
+    "explanation": "Random forests combine many decision trees and aggregate their votes to reduce overfitting and improve accuracy.",
+    "useCase": "Fraud detection, recommendation systems, feature importance ranking",
+    "visualType": "mermaid",
+    "hint": "Notice the bootstrap sampling into many small trees that vote together.",
+    "visualContent": "graph TD\n    A[Training Data] -->|Bootstrap Sample| T1[Tree 1]\n    A -->|Bootstrap Sample| T2[Tree 2]\n    A -->|Bootstrap Sample| T3[Tree 3]\n    A -->|Bootstrap Sample| T4[Tree 4]\n    subgraph Voting Layer\n        T1 --> V[Majority Vote]\n        T2 --> V\n        T3 --> V\n        T4 --> V\n    end\n    V --> Prediction",
+    "options": [
+      "Gradient Boosting",
+      "Random Forest",
+      "Linear Regression",
+      "Logistic Regression"
+    ]
+  },
+  {
+    "id": "isolationforest_boxplot_1",
+    "model": "Isolation Forest",
+    "difficulty": "Hard",
+    "question": "Which algorithm is demonstrated by this anomaly detection code snippet?",
+    "explanation": "Isolation Forest isolates anomalies by randomly partitioning feature space—outliers require fewer splits and appear beyond whiskers.",
+    "useCase": "Fraud detection, network intrusion detection, sensor monitoring",
+    "visualType": "code",
+    "hint": "Notice the random partitioning and anomaly score inversion.",
+    "visualContent": "from sklearn.ensemble import IsolationForest\\nimport numpy as np\\n\\ndef score_anomalies(points: np.ndarray) -> np.ndarray:\\n    model = IsolationForest(contamination=0.08, random_state=42)\\n    model.fit(points)\\n    scores = -model.decision_function(points)\\n    return np.column_stack((points, scores))\\n\\nif __name__ == '__main__':\\n    samples = np.random.normal(0, 1, size=(200, 3))\\n    anomalies = np.array([[4.5, -3.2, 0.8], [-4.0, 3.6, -1.1]])\\n    data = np.vstack([samples, anomalies])\\n    scored = score_anomalies(data)\\n    print(scored[scored[:, -1] > 0.6])",
+    "options": [
+      "Isolation Forest",
+      "Principal Component Analysis",
+      "Linear Regression",
+      "Bayesian Ridge"
+    ]
+  },
+  {
+    "id": "pipeline_flowchart_1",
+    "model": "ML Pipeline",
+    "difficulty": "Easy",
+    "question": "What concept does this flowchart describe?",
+    "explanation": "An ML pipeline strings preprocessing, feature engineering, and modeling steps into one deployable flow.",
+    "useCase": "Operationalizing machine learning, MLOps workflows",
+    "visualType": "mermaid",
+    "hint": "Notice the linear steps from raw data to experiments to deployment.",
+    "visualContent": "flowchart LR\n    A[Raw Data] --> B[Cleaning]\n    B --> C[Feature Engineering]\n    C --> D[Model Training]\n    D --> E[Evaluation]\n    E --> F[Deployment]\n    F -.-> A",
+    "options": [
+      "ML Pipeline",
+      "Reinforcement Learning Loop",
+      "Data Warehouse",
+      "Hyperparameter Grid"
+    ]
+  },
+  {
+    "id": "naivebayes_code_1",
+    "model": "Naive Bayes",
+    "difficulty": "Medium",
+    "question": "Which algorithm is illustrated by this code snippet?",
+    "explanation": "Naive Bayes applies Bayes' theorem with feature independence assumptions, often used in text classification.",
+    "useCase": "Spam filtering, sentiment analysis, document categorization",
+    "visualType": "code",
+    "hint": "Look for the probabilistic update step.",
+    "visualContent": "import numpy as np\\n\\ndef predict_prob(tokens, priors, likelihoods):\\n    scores = {}\\n    for label, prior in priors.items():\\n        score = np.log(prior)\\n        for token in tokens:\\n            score += np.log(likelihoods[label].get(token, 1e-6))\\n        scores[label] = score\\n    return max(scores, key=scores.get)",
+    "options": [
+      "Naive Bayes",
+      "Support Vector Machine",
+      "K-Nearest Neighbors",
+      "Decision Tree"
+    ]
+  },
+  {
+    "id": "mermaid_graph_ensemble_1",
+    "model": "Stacking Ensemble",
+    "difficulty": "Hard",
+    "question": "Which ensemble technique matches this mermaid diagram?",
+    "explanation": "Stacking ensembles combine predictions from diverse base learners using a meta-model trained on their outputs.",
+    "useCase": "Kaggle competitions, model blending, robust tabular modeling",
+    "visualType": "mermaid",
+    "hint": "Base learners feed into a meta learner.",
+    "visualContent": "graph TD\\n    A[Model 1] --> M[Meta Learner]\\n    B[Model 2] --> M\\n    C[Model 3] --> M\\n    M --> Prediction",
+    "options": [
+      "Stacking Ensemble",
+      "Bagging",
+      "Boosting",
+      "Feature Selection"
+    ]
+  }
+]

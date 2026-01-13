@@ -1,0 +1,106 @@
+[
+  {
+    "name": "T-Pose",
+    "description": "Arms straight out horizontally, standing upright",
+    "keypoints": [
+      { "name": "left_shoulder", "x": 0.38, "y": 0.38 },
+      { "name": "right_shoulder", "x": 0.62, "y": 0.38 },
+
+      { "name": "left_elbow", "x": 0.26, "y": 0.38 },
+      { "name": "right_elbow", "x": 0.74, "y": 0.38 },
+
+      { "name": "left_wrist", "x": 0.16, "y": 0.38 },
+      { "name": "right_wrist", "x": 0.84, "y": 0.38 },
+
+      { "name": "left_hip", "x": 0.42, "y": 0.64 },
+      { "name": "right_hip", "x": 0.58, "y": 0.64 },
+
+      { "name": "left_knee", "x": 0.44, "y": 0.82 },
+      { "name": "right_knee", "x": 0.56, "y": 0.82 }
+    ]
+  },
+
+  {
+    "name": "Hands Up",
+    "description": "Both arms raised above the head",
+    "keypoints": [
+      { "name": "left_shoulder", "x": 0.40, "y": 0.40 },
+      { "name": "right_shoulder", "x": 0.60, "y": 0.40 },
+
+      { "name": "left_elbow", "x": 0.42, "y": 0.26 },
+      { "name": "right_elbow", "x": 0.58, "y": 0.26 },
+
+      { "name": "left_wrist", "x": 0.45, "y": 0.14 },
+      { "name": "right_wrist", "x": 0.55, "y": 0.14 },
+
+      { "name": "left_hip", "x": 0.43, "y": 0.66 },
+      { "name": "right_hip", "x": 0.57, "y": 0.66 },
+
+      { "name": "left_knee", "x": 0.45, "y": 0.84 },
+      { "name": "right_knee", "x": 0.55, "y": 0.84 }
+    ]
+  },
+
+  {
+    "name": "Star Pose",
+    "description": "Arms and legs spread diagonally",
+    "keypoints": [
+      { "name": "left_shoulder", "x": 0.38, "y": 0.40 },
+      { "name": "right_shoulder", "x": 0.62, "y": 0.40 },
+
+      { "name": "left_elbow", "x": 0.26, "y": 0.30 },
+      { "name": "right_elbow", "x": 0.74, "y": 0.30 },
+
+      { "name": "left_wrist", "x": 0.18, "y": 0.22 },
+      { "name": "right_wrist", "x": 0.82, "y": 0.22 },
+
+      { "name": "left_hip", "x": 0.40, "y": 0.66 },
+      { "name": "right_hip", "x": 0.60, "y": 0.66 },
+
+      { "name": "left_knee", "x": 0.34, "y": 0.86 },
+      { "name": "right_knee", "x": 0.66, "y": 0.86 }
+    ]
+  },
+
+  {
+    "name": "Squat",
+    "description": "Knees bent with hips lowered",
+    "keypoints": [
+      { "name": "left_shoulder", "x": 0.40, "y": 0.44 },
+      { "name": "right_shoulder", "x": 0.60, "y": 0.44 },
+
+      { "name": "left_elbow", "x": 0.36, "y": 0.46 },
+      { "name": "right_elbow", "x": 0.64, "y": 0.46 },
+
+      { "name": "left_wrist", "x": 0.34, "y": 0.48 },
+      { "name": "right_wrist", "x": 0.66, "y": 0.48 },
+
+      { "name": "left_hip", "x": 0.42, "y": 0.72 },
+      { "name": "right_hip", "x": 0.58, "y": 0.72 },
+
+      { "name": "left_knee", "x": 0.40, "y": 0.86 },
+      { "name": "right_knee", "x": 0.60, "y": 0.86 }
+    ]
+  },
+
+  {
+    "name": "One Arm Up",
+    "description": "Right arm raised, left arm relaxed",
+    "keypoints": [
+      { "name": "left_shoulder", "x": 0.38, "y": 0.40 },
+      { "name": "right_shoulder", "x": 0.62, "y": 0.40 },
+
+      { "name": "left_elbow", "x": 0.36, "y": 0.48 },
+      { "name": "right_elbow", "x": 0.62, "y": 0.26 },
+
+      { "name": "left_wrist", "x": 0.36, "y": 0.56 },
+      { "name": "right_wrist", "x": 0.62, "y": 0.14 },
+
+      { "name": "left_hip", "x": 0.42, "y": 0.66 },
+      { "name": "right_hip", "x": 0.58, "y": 0.66 },
+
+      { "name": "left_knee", "x": 0.44, "y": 0.84 },
+      { "name": "right_knee", "x": 0.56, "y": 0.84 }
+    ]
+  }
+]

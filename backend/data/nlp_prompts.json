@@ -1,0 +1,624 @@
+[
+  {
+    "id": "1",
+    "topic": "Group project excuse",
+    "originalMessage": "Hey, where are you? We need to start our project.",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "Yeah sorry—running a bit late.",
+          "Got held up longer than I expected, heading over now."
+        ],
+        "isAI": false,
+        "explanation": "Casual pacing, dash instead of full stop, vague but realistic excuse without overexplaining"
+      },
+      {
+        "id": "B",
+        "text": [
+          "Sorry about that, timing slipped on my end.",
+          "On the way now, shouldn’t be long."
+        ],
+        "isAI": true,
+        "explanation": "Concise and natural, but slightly polished phrasing and symmetry hint at AI generation"
+      }
+    ]
+  },
+
+  {
+    "id": "2",
+    "topic": "Dating ask out",
+    "originalMessage": "Want to grab coffee this weekend?",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "Yeah, I’m down.",
+          "This weekend’s a bit packed but Saturday could work."
+        ],
+        "isAI": true,
+        "explanation": "Very human-sounding hesitation and schedule framing, but balanced sentence rhythm feels AI-curated"
+      },
+      {
+        "id": "B",
+        "text": [
+          "Sure :)",
+          "Saturday works if you’re free—no worries if not though"
+        ],
+        "isAI": false,
+        "explanation": "Slight over-accommodation and softening language typical of real texting"
+      }
+    ]
+  },
+
+  {
+    "id": "3",
+    "topic": "Customer support",
+    "originalMessage": "My order hasn't arrived yet, it's been 5 days.",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "Ugh yeah, that’s definitely longer than it should be.",
+          "Let me pull this up—could you send the order number?"
+        ],
+        "isAI": false,
+        "explanation": "Colloquial empathy ('ugh yeah') and conversational flow"
+      },
+      {
+        "id": "B",
+        "text": [
+          "That’s frustrating, sorry about the delay.",
+          "I’ll check what’s going on—can you share your order number?"
+        ],
+        "isAI": true,
+        "explanation": "Natural empathy but cleaner phrasing and consistent tone signal AI"
+      }
+    ]
+  },
+
+  {
+    "id": "4",
+    "topic": "Friend cancelling plans",
+    "originalMessage": "Are we still meeting tonight?",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "I hate to do this but I might have to rain check.",
+          "Totally get it if you’re annoyed 😬"
+        ],
+        "isAI": false,
+        "explanation": "Emotionally loaded language and self-consciousness are very human"
+      },
+      {
+        "id": "B",
+        "text": [
+          "Might need to push tonight, something came up last minute.",
+          "Really sorry about that."
+        ],
+        "isAI": true,
+        "explanation": "Believable but emotionally restrained and efficient"
+      }
+    ]
+  },
+
+  {
+    "id": "5",
+    "topic": "Work message to teammate",
+    "originalMessage": "Did you finish the slides?",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "Mostly, yeah.",
+          "Still tweaking the last two—should be done soon."
+        ],
+        "isAI": false,
+        "explanation": "Incomplete thoughts and informal pacing"
+      },
+      {
+        "id": "B",
+        "text": [
+          "Almost there.",
+          "Just cleaning up the final slides, will update shortly."
+        ],
+        "isAI": true,
+        "explanation": "Professionally casual with polished clarity"
+      }
+    ]
+  },
+
+  {
+    "id": "6",
+    "topic": "Late-night text",
+    "originalMessage": "You still up?",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "yeah unfortunately",
+          "what’s up"
+        ],
+        "isAI": false,
+        "explanation": "Lowercase, minimal effort, very human late-night tone"
+      },
+      {
+        "id": "B",
+        "text": [
+          "Still awake, yeah.",
+          "What’s going on?"
+        ],
+        "isAI": true,
+        "explanation": "Natural but slightly more composed than typical sleepy texting"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "topic": "dry texter recovery",
+    "originalMessage": "lol",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "Was that a real lol or a polite lol",
+          "I need to emotionally prepare either way"
+        ],
+        "isAI": false,
+        "explanation": "Self-aware humor, slight insecurity, feels impulsive and personal"
+      },
+      {
+        "id": "B",
+        "text": [
+          "That feels like a soft laugh, not a full one",
+          "Should I be concerned or continue"
+        ],
+        "isAI": true,
+        "explanation": "Funny and human-like, but structured joke escalation hints at AI"
+      }
+    ]
+  },
+
+  {
+    "id": "8",
+    "topic": "accidental overshare",
+    "originalMessage": "What are you up to?",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "Honestly?",
+          "Lying on my bed questioning my life choices"
+        ],
+        "isAI": false,
+        "explanation": "Raw honesty and mild chaos typical of real texting"
+      },
+      {
+        "id": "B",
+        "text": [
+          "Not much, just decompressing after today",
+          "It’s been one of those days"
+        ],
+        "isAI": true,
+        "explanation": "Relatable but slightly sanitized emotional expression"
+      }
+    ]
+  },
+
+  {
+    "id": "9",
+    "topic": "playful flirting",
+    "originalMessage": "So what made you swipe right",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "I felt peer pressured by your face",
+          "It seemed trustworthy"
+        ],
+        "isAI": false,
+        "explanation": "Absurd humor and mild teasing feel spontaneous"
+      },
+      {
+        "id": "B",
+        "text": [
+          "You seemed interesting and not aggressively boring",
+          "Which is rare"
+        ],
+        "isAI": true,
+        "explanation": "Well-calibrated humor with neat phrasing"
+      }
+    ]
+  },
+
+  {
+    "id": "10",
+    "topic": "cancelling but flirting",
+    "originalMessage": "Are we still on for tonight?",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "I hate myself for this but I might need a rain check",
+          "Can I bribe you with coffee later"
+        ],
+        "isAI": false,
+        "explanation": "Self-blame + playful recovery attempt feels human"
+      },
+      {
+        "id": "B",
+        "text": [
+          "I might need to reschedule tonight unfortunately",
+          "Can I make it up to you another time?"
+        ],
+        "isAI": true,
+        "explanation": "Polite, emotionally aware, but less messy"
+      }
+    ]
+  },
+
+  {
+    "id": "11",
+    "topic": "chaotic humor",
+    "originalMessage": "How was your day?",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "Emotionally? 3/10",
+          "Logistically? Shockingly productive"
+        ],
+        "isAI": true,
+        "explanation": "Clever contrast and symmetry suggest AI crafting"
+      },
+      {
+        "id": "B",
+        "text": [
+          "Honestly a blur",
+          "I think I did things but I couldn’t tell you what"
+        ],
+        "isAI": false,
+        "explanation": "Vague, unpolished, very real end-of-day energy"
+      }
+    ]
+  },
+
+  {
+    "id": "12",
+    "topic": "accidental double text",
+    "originalMessage": "(no reply for 3 hours)",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "Wait sorry that sounded intense",
+          "I swear I’m chill 😭"
+        ],
+        "isAI": false,
+        "explanation": "Immediate self-correction and embarrassment is very human"
+      },
+      {
+        "id": "B",
+        "text": [
+          "Realizing that may have come off strong",
+          "Please disregard if so"
+        ],
+        "isAI": true,
+        "explanation": "Self-aware but overly composed recovery"
+      }
+    ]
+  },
+
+  {
+    "id": "13",
+    "topic": "friend roast",
+    "originalMessage": "Thoughts on my new haircut?",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "It’s giving main character",
+          "But like episode 3 before the glow up"
+        ],
+        "isAI": false,
+        "explanation": "Specific, slightly mean, creative roast"
+      },
+      {
+        "id": "B",
+        "text": [
+          "Bold choice",
+          "I respect the confidence it requires"
+        ],
+        "isAI": true,
+        "explanation": "Carefully neutral humor"
+      }
+    ]
+  },
+
+  {
+    "id": "14",
+    "topic": "unhinged honesty",
+    "originalMessage": "Why are you awake so late",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "Bad decisions earlier",
+          "Now I’m dealing with the consequences"
+        ],
+        "isAI": true,
+        "explanation": "Relatable but neatly phrased"
+      },
+      {
+        "id": "B",
+        "text": [
+          "I took a nap at 7pm which was arrogant of me",
+          "So here we are"
+        ],
+        "isAI": false,
+        "explanation": "Unexpected phrasing and self-blame humor"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "topic": "dry reply panic",
+    "originalMessage": "ok",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "ok as in ok 👍",
+          "or ok as in i should start apologizing"
+        ],
+        "isAI": false,
+        "explanation": "Anxiety humor, lowercase, exaggerated interpretation feels very Gen Z"
+      },
+      {
+        "id": "B",
+        "text": [
+          "that ok felt loaded",
+          "should i be concerned"
+        ],
+        "isAI": true,
+        "explanation": "Concise and funny but slightly too clean"
+      }
+    ]
+  },
+
+  {
+    "id": "16",
+    "topic": "unserious flirting",
+    "originalMessage": "what are you doing",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "rotting",
+          "you?"
+        ],
+        "isAI": false,
+        "explanation": "Single-word irony + deadpan reply"
+      },
+      {
+        "id": "B",
+        "text": [
+          "existing at low capacity",
+          "what about you"
+        ],
+        "isAI": true,
+        "explanation": "Gen Z-coded phrasing but still articulated"
+      }
+    ]
+  },
+
+  {
+    "id": "17",
+    "topic": "soft launch flirting",
+    "originalMessage": "u home?",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "yeah unfortunately",
+          "why do you sound ominous"
+        ],
+        "isAI": false,
+        "explanation": "Casual suspicion + humor"
+      },
+      {
+        "id": "B",
+        "text": [
+          "yeah",
+          "what’s up?"
+        ],
+        "isAI": true,
+        "explanation": "Neutral, minimal, safe"
+      }
+    ]
+  },
+
+  {
+    "id": "18",
+    "topic": "accidental double text",
+    "originalMessage": "(no reply for 20 minutes)",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "wait",
+          "sorry that wasn’t meant to sound like that"
+        ],
+        "isAI": false,
+        "explanation": "Instant regret + fragmented texting"
+      },
+      {
+        "id": "B",
+        "text": [
+          "realizing that may have come off weird",
+          "my bad"
+        ],
+        "isAI": true,
+        "explanation": "Aware but composed"
+      }
+    ]
+  },
+
+  {
+    "id": "19",
+    "topic": "unserious vulnerability",
+    "originalMessage": "how are you actually",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "mentally? yikes",
+          "but like we move"
+        ],
+        "isAI": false,
+        "explanation": "Compressed emotional honesty with slang"
+      },
+      {
+        "id": "B",
+        "text": [
+          "a little tired honestly",
+          "but managing"
+        ],
+        "isAI": true,
+        "explanation": "Emotionally accurate but safe"
+      }
+    ]
+  },
+
+  {
+    "id": "20",
+    "topic": "playful rejection",
+    "originalMessage": "come over",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "tempting",
+          "but i fear i would not survive that"
+        ],
+        "isAI": false,
+        "explanation": "Dramatic irony + humor"
+      },
+      {
+        "id": "B",
+        "text": [
+          "that’s very tempting",
+          "but i should probably be responsible tonight"
+        ],
+        "isAI": true,
+        "explanation": "Balanced but polished"
+      }
+    ]
+  },
+
+  {
+    "id": "21",
+    "topic": "friend group chaos",
+    "originalMessage": "who’s coming",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "me if i don’t cancel last minute",
+          "which is unlikely"
+        ],
+        "isAI": false,
+        "explanation": "Self-roast and realism"
+      },
+      {
+        "id": "B",
+        "text": [
+          "i’m planning to",
+          "no promises though"
+        ],
+        "isAI": true,
+        "explanation": "Gen Z energy but cleaner"
+      }
+    ]
+  },
+
+  {
+    "id": "22",
+    "topic": "sleep deprivation",
+    "originalMessage": "why are you awake",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "revenge bedtime procrastination",
+          "aka poor life choices"
+        ],
+        "isAI": true,
+        "explanation": "Internet-term usage + definition framing"
+      },
+      {
+        "id": "B",
+        "text": [
+          "i napped at 6pm like a fool",
+          "now i pay"
+        ],
+        "isAI": false,
+        "explanation": "Casual regret phrasing"
+      }
+    ]
+  },
+
+  {
+    "id": "23",
+    "topic": "unserious compliment",
+    "originalMessage": "you’re kinda cute",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "kinda???",
+          "i’ll take it"
+        ],
+        "isAI": false,
+        "explanation": "Playful ego check"
+      },
+      {
+        "id": "B",
+        "text": [
+          "i appreciate that",
+          "thank you"
+        ],
+        "isAI": true,
+        "explanation": "Grateful but too polite"
+      }
+    ]
+  },
+
+  {
+    "id": "24",
+    "topic": "chaos response",
+    "originalMessage": "i miss you",
+    "replies": [
+      {
+        "id": "A",
+        "text": [
+          "that’s dangerous information",
+          "say more"
+        ],
+        "isAI": false,
+        "explanation": "Flirty, ironic escalation"
+      },
+      {
+        "id": "B",
+        "text": [
+          "that means a lot to hear",
+          "i appreciate you saying that"
+        ],
+        "isAI": true,
+        "explanation": "Emotionally mature but not Gen Z-coded"
+      }
+    ]
+  }
+]
+

@@ -1,0 +1,180 @@
+[
+  {
+    "id": "1767381372633",
+    "userId": "user_f3zoo2s2q",
+    "booth": "ml",
+    "score": 100,
+    "playerName": "skibidi",
+    "timestamp": "2026-01-02T19:16:12.633Z",
+    "meta": {
+      "rounds": 5,
+      "results": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "perfect": false
+    }
+  },
+  {
+    "id": "1767382943909",
+    "userId": "user_wp5g8vx5q",
+    "booth": "nlp",
+    "score": 100,
+    "playerName": "bra",
+    "timestamp": "2026-01-02T19:42:23.909Z",
+    "meta": {
+      "rounds": 5,
+      "results": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "history": [
+        {
+          "round": 1,
+          "didWin": false,
+          "timedOut": false,
+          "selectedId": "A",
+          "correctId": "B",
+          "topic": "playful flirting",
+          "promptId": "9"
+        },
+        {
+          "round": 2,
+          "didWin": false,
+          "timedOut": false,
+          "selectedId": "A",
+          "correctId": "B",
+          "topic": "unserious compliment",
+          "promptId": "23"
+        },
+        {
+          "round": 3,
+          "didWin": false,
+          "timedOut": false,
+          "selectedId": "B",
+          "correctId": "A",
+          "topic": "chaotic humor",
+          "promptId": "11"
+        },
+        {
+          "round": 4,
+          "didWin": false,
+          "timedOut": false,
+          "selectedId": "A",
+          "correctId": "B",
+          "topic": "soft launch flirting",
+          "promptId": "17"
+        },
+        {
+          "round": 5,
+          "didWin": true,
+          "timedOut": false,
+          "selectedId": "B",
+          "correctId": "B",
+          "topic": "playful rejection",
+          "promptId": "20"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1767383924632",
+    "userId": "user_v575t1t9r",
+    "booth": "ml",
+    "score": 300,
+    "playerName": "tsest",
+    "timestamp": "2026-01-02T19:58:44.632Z",
+    "meta": {
+      "rounds": 5,
+      "results": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "perfect": false
+    }
+  },
+  {
+    "id": "1767385220633",
+    "userId": "user_oa81yqbzt",
+    "booth": "nlp",
+    "score": 170,
+    "playerName": "great test",
+    "timestamp": "2026-01-02T20:20:20.633Z",
+    "meta": {
+      "rounds": 5,
+      "results": [
+        false,
+        true,
+        false,
+        true,
+        true
+      ],
+      "history": [
+        {
+          "round": 1,
+          "didWin": false,
+          "timedOut": false,
+          "selectedId": "A",
+          "correctId": "B",
+          "topic": "friend group chaos",
+          "promptId": "21",
+          "timeTaken": 9,
+          "scoreAwarded": 0
+        },
+        {
+          "round": 2,
+          "didWin": true,
+          "timedOut": false,
+          "selectedId": "B",
+          "correctId": "B",
+          "topic": "playful flirting",
+          "promptId": "9",
+          "timeTaken": 5,
+          "scoreAwarded": 20
+        },
+        {
+          "round": 3,
+          "didWin": false,
+          "timedOut": false,
+          "selectedId": "A",
+          "correctId": "B",
+          "topic": "dry texter recovery",
+          "promptId": "7",
+          "timeTaken": 2,
+          "scoreAwarded": 0
+        },
+        {
+          "round": 4,
+          "didWin": true,
+          "timedOut": false,
+          "selectedId": "A",
+          "correctId": "A",
+          "topic": "Dating ask out",
+          "promptId": "2",
+          "timeTaken": 1,
+          "scoreAwarded": 100
+        },
+        {
+          "round": 5,
+          "didWin": true,
+          "timedOut": false,
+          "selectedId": "B",
+          "correctId": "B",
+          "topic": "unserious compliment",
+          "promptId": "23",
+          "timeTaken": 2,
+          "scoreAwarded": 50
+        }
+      ]
+    }
+  }
+]
